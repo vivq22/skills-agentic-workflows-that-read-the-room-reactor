@@ -18,8 +18,8 @@ tools:
    web-fetch:
 network:
    allowed:
-      - github.com
-      - github.blog
+   - github
+   - awesome-copilot.github.com
 ---
 
 # Update Mona's GitHub Info website
@@ -30,6 +30,9 @@ Use these sources:
 - `notes/mona-notes.md`
 - GitHub Blog: https://github.blog/latest/
 - GitHub Changelog: https://github.blog/changelog/
+- Awesome Copilot Workflows: https://awesome-copilot.github.com/workflows/
+
+Tell the agent to web fetch https://awesome-copilot.github.com/workflows/.
 
 Update `site/content/github-info.md` with concise,
 practical updates for readers and include source context when content comes
