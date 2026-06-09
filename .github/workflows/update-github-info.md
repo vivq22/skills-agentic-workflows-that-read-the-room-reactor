@@ -5,7 +5,9 @@ on:
    workflow_dispatch:
    schedule:
       - cron: '17 9 * * *'
-engine: copilot
+engine:
+   id: copilot
+   model: gpt-5.3
 permissions:
    contents: read
 safe-outputs:
